@@ -1,26 +1,6 @@
 {
   "folders": [
     {
-      "name": "frontend",
-      "path": "../autogpt_platform/frontend"
-    },
-    {
-      "name": "backend",
-      "path": "../autogpt_platform/backend"
-    },
-    {
-      "name": "market",
-      "path": "../autogpt_platform/market"
-    },
-    {
-      "name": "lib",
-      "path": "../autogpt_platform/autogpt_libs"
-    },
-    {
-      "name": "infra",
-      "path": "../autogpt_platform/infra"
-    },
-    {
       "name": "docs",
       "path": "../docs"
     },

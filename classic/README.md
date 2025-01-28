@@ -4,9 +4,8 @@ AutoGPT Classic was an experimental project to demonstrate autonomous GPT-4 oper
 
 ## Project Status
 
-⚠️ **This project is unsupported, and dependencies will not be updated. It was an experiment that has concluded its initial research phase. If you want to use AutoGPT, you should use the [AutoGPT Platform](/autogpt_platform)**
+This is a seldom-maintained fork. Use it at your own risk.
 
-For those interested in autonomous AI agents, we recommend exploring more actively maintained alternatives or referring to this codebase for educational purposes only.
 
 ## Overview
 
@@ -35,16 +34,15 @@ The project is organized into several key components:
 
 ## Getting Started
 
-While this project is no longer actively maintained, you can still explore the codebase:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Significant-Gravitas/AutoGPT.git
+git clone https://github.com/Textualization/AutoGPT-Classic.git
 cd classic
 ```
 
 2. Review the documentation:
-- For reference, see the [documentation](https://docs.agpt.co). You can browse at the same point in time as this commit so the docs don't change.
+- For reference, see the [documentation](../docs/content/classic).
 - Check `CLI-USAGE.md` for command-line interface details
 - Refer to `TROUBLESHOOTING.md` for common issues
 
@@ -54,8 +52,7 @@ This project segment is licensed under the MIT License - see the [LICENSE](LICEN
 
 ## Documentation
 
-Please refer to the [documentation](https://docs.agpt.co) for more detailed information about the project's architecture and concepts.
-You can browse at the same point in time as this commit so the docs don't change.
+Please refer to the [documentation](../docs/content/classic) for more detailed information about the project's architecture and concepts.
 
 ## Historical Impact
 
@@ -65,17 +62,13 @@ AutoGPT Classic played a significant role in advancing the field of autonomous A
 - Contributed to the development of AI agent architectures
 - Helped identify key challenges in AI autonomy
 
+
 ## Security Notice
 
-If you're studying this codebase, please understand this has KNOWN vulnerabilities and issues with its dependencies. It will not be updated to new dependencies.
+If you're studying this codebase, please understand this has KNOWN vulnerabilities and issues with its dependencies. If you fix them, please send a PR.
 
-## Community & Support
-
-While active development has concluded:
-- The codebase remains available for study and reference
-- Historical discussions can be found in project issues
-- Related research and developments continue in the broader AI agent community
 
 ## Acknowledgments
 
 Thanks to all contributors who participated in this experimental project and helped advance the field of autonomous AI agents.
+
