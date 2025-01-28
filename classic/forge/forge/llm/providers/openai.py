@@ -74,6 +74,7 @@ class OpenAIModelName(str, enum.Enum):
     GPT4_O_v1 = "gpt-4o-2024-05-13"
     GPT4_O_ROLLING = "gpt-4o"
     GPT4 = GPT4_ROLLING
+    GPT4_O_MINI = "gpt-4o-mini"
     GPT4_32k = GPT4_ROLLING_32k
     GPT4_O = GPT4_O_ROLLING
 
@@ -170,6 +171,14 @@ OPEN_AI_CHAT_MODELS = {
             provider_name=ModelProviderName.OPENAI,
             prompt_token_cost=5 / 1_000_000,
             completion_token_cost=15 / 1_000_000,
+            max_tokens=128_000,
+            has_function_call_api=True,
+        ),
+        ChatModelInfo(
+            name=OpenAIModelName.GPT4_O_MINI,
+            provider_name=ModelProviderName.OPENAI,
+            prompt_token_cost=15 / 1_000_000,
+            completion_token_cost=60 / 1_000_000,
             max_tokens=128_000,
             has_function_call_api=True,
         ),

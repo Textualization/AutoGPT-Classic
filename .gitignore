@@ -170,9 +170,7 @@ pri*
 ig*
 .github_access_token
 LICENSE.rtf
-autogpt_platform/backend/settings.py
 /.auth
-/autogpt_platform/frontend/.auth
 
 *.ign.*
 .test-contents
